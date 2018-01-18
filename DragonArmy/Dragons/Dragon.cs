@@ -21,7 +21,8 @@ namespace DragonArmy.Dragons
         public override string ToString()
         {
             //Bazgargal -> damage: 100, health: 2500, armor: 25
-            return $"{this.Name} -> {this.Damage}, {this.Health}, {this.Armor}";
+            return string.Format("{0} -> {1}, {2}, {3}",
+                this.Name, this.Damage, this.Health, this.Armor);
         }
     }
 }

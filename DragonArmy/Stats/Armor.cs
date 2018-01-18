@@ -13,7 +13,7 @@
 
         public override string ToString()
         {
-            return $"armor: {this.Value}";
+            return string.Format("armor: {0}", this.Value);
         }
 
         public static Armor Create(string armorInfo)

@@ -22,7 +22,8 @@ namespace DragonArmy.Dragons.Statistics
 
         public override string ToString()
         {
-            return $"{this.TypeName}::({this.AverageDamage:F2}/{this.AverageHealth:F2}/{this.AverageArmor:F2})";
+            return string.Format("{0}::({1:F2}/{2:F2}/{3:F2})",
+                this.TypeName, this.AverageDamage, this.AverageHealth, this.AverageArmor);
         }
 
         public static DragonTypeStatistics Create(Type dragonType,

@@ -19,7 +19,7 @@ namespace DragonArmy.Dragons.Collections.Visualizers.Implementations
                 Console.WriteLine(dragonTypeSummary);
                 foreach (var dragon in element.Value)
                 {
-                    Console.WriteLine($"-{dragon}");
+                    Console.WriteLine("-{0}", dragon);
                 }
             }
         }

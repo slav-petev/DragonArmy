@@ -13,7 +13,7 @@
 
         public override string ToString()
         {
-            return $"health: {this.Value}";
+            return string.Format("health: {0}", this.Value);
         }
 
         public static Health Create(string healthInfo)

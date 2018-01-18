@@ -13,7 +13,7 @@
 
         public override string ToString()
         {
-            return $"damage: {this.Value}";
+            return string.Format("damage: {0}", this.Value);
         }
 
         public static Damage Create(string damageInfo)

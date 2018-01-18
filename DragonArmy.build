@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="Naxex Academy" basedir=".">
+	<property name="Solution.Filename" value="DragonArmy.sln" />
+	<property name="Configuration" value="Debug" />
+	<msbuild project="${Solution.Filename}">
+		<property name="Configuration" value="${Configuration}" />
+	</msbuild>
+</project>
